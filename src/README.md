@@ -1,6 +1,6 @@
 # koltra
 
-> marketplace for collectibles
+> Nuxt.js project
 
 ## Build Setup
 

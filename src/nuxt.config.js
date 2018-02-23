@@ -7,7 +7,7 @@ module.exports = {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'marketplace for collectibles' }
+      { hid: 'description', name: 'description', content: 'Nuxt.js project' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
@@ -20,24 +20,7 @@ module.exports = {
   /*
   ** Build configuration
   */
-  buildDir: '../functions/nuxt',
   build: {
-    publicPath: '/',
-    vendor: ['isomorphic-fetch'],
-    extractCSS: true,
-    babel: {
-      presets: [
-        'env',
-        'stage-0'
-      ],
-      plugins: [
-        ['transform-runtime', {
-          polyfill: true,
-          regenerator: true
-        }]
-      ]
-    },
-
     /*
     ** Run ESLint on save
     */
