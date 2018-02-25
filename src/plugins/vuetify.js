@@ -10,7 +10,8 @@ import {
   VIcon,
   VGrid,
   VToolbar,
-  VJumbotron
+  VJumbotron,
+  VParallax
 } from 'vuetify'
 import colors from 'vuetify/es5/util/colors'
 
@@ -25,7 +26,8 @@ Vue.use(Vuetify, {
     VIcon,
     VGrid,
     VToolbar,
-    VJumbotron
+    VJumbotron,
+    VParallax
   },
   theme: {
     primary: colors.blueGrey.darken2,

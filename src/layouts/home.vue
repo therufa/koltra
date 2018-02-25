@@ -5,6 +5,11 @@
     <header class="k-front-header hidden-xs-only">
       <v-content>
         <v-container>
+          <v-card class="jumbo">
+            <v-jumbotron color="secondary" dark>
+              this is something
+            </v-jumbotron>
+          </v-card>
         </v-container>
       </v-content>
     </header>
@@ -26,3 +31,4 @@ export default {
   }
 }
 </script>
+
