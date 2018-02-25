@@ -5,16 +5,18 @@
     <header class="app-front-header">
       <v-content class="hidden-xs-only">
         <v-container>
-          <v-card class="jumbo">
-            <v-jumbotron color="white">
-              Koltra. A hely ahol elcserelheted mindenedet
-            </v-jumbotron>
-          </v-card>
+          <div class="jumbo-wrapper">
+            <v-card class="jumbo">
+              <v-jumbotron color="white">
+                Koltra. A hely ahol elcserelheted mindenedet
+              </v-jumbotron>
+            </v-card>
+          </div>
         </v-container>
       </v-content>
     </header>
 
-    <v-content>
+    <v-content class="home-content">
       <v-container>
         <nuxt />
       </v-container>

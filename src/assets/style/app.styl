@@ -1,10 +1,13 @@
 // Import Vuetify styling
 @require '~vuetify/src/stylus/main'
-@require './colors'
+@require './settings/colors'
+@require './components/all'
 
 .page
   @extend .fade-transition
 
+.home-content
+  margin-top: 125px
 
 .app
   &-header
@@ -15,7 +18,9 @@
       background-color: $header-color
 
       .jumbo
-        transform: translateY(50px)
+        &-wrapper
+          height: 300px
+        transform: translateY(75px)
 
 
 .app-title

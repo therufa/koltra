@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "nuxt": "^1.0.0",
+    "uuid": "^3.2.1",
     "vuetify": "^1.0.0"
   },
   "devDependencies": {
