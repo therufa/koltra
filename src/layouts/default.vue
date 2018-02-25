@@ -23,7 +23,7 @@
       </v-list>
     </v-navigation-drawer>
 
-    <v-toolbar dark app clipped-left flat>
+    <v-toolbar app clipped-left flat>
       <v-toolbar-side-icon @click="drawer = !drawer" class="hidden-md-and-up"></v-toolbar-side-icon>
       <v-toolbar-title v-text="title"></v-toolbar-title>
       <v-spacer></v-spacer>
