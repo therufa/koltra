@@ -1,15 +1,14 @@
 <template>
   <div>
-    Koltra home
+    these are the details {{ details }}
   </div>
 </template>
 
 <script>
 export default {
-  name: 'index',
-  head () {
+  data () {
     return {
-      title: 'Koltra - Home'
+      details: this.$route.params.details
     }
   }
 }
