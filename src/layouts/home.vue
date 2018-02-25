@@ -2,12 +2,12 @@
   <v-app>
     <app-navigation />
 
-    <header class="k-front-header hidden-xs-only">
-      <v-content>
+    <header class="app-front-header">
+      <v-content class="hidden-xs-only">
         <v-container>
           <v-card class="jumbo">
-            <v-jumbotron color="secondary" dark>
-              this is something
+            <v-jumbotron color="white">
+              Koltra. A hely ahol elcserelheted mindenedet
             </v-jumbotron>
           </v-card>
         </v-container>
@@ -19,15 +19,19 @@
         <nuxt />
       </v-container>
     </v-content>
+
+    <app-footer />
   </v-app>
 </template>
 
 <script>
 import AppNavigation from './_app-navigation'
+import AppFooter from './_app-footer'
 
 export default {
   components: {
-    AppNavigation
+    AppNavigation,
+    AppFooter
   }
 }
 </script>

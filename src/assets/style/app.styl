@@ -1,21 +1,23 @@
 // Import Vuetify styling
-@import '~vuetify/src/stylus/main'
-@import './colors'
+@require '~vuetify/src/stylus/main'
+@require './colors'
 
 .page
   @extend .fade-transition
 
 
-.k
+.app
+  &-header
+    .app-toolbar
+      background-color: $header-color
   &-front
     &-header
-      background-color: grey
-      // margin-bottom: 50px
+      background-color: $header-color
 
       .jumbo
         transform: translateY(50px)
-        background-color: black
 
 
 .app-title
   text-decoration: none
+  color: $shades.white

@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="app-header">
     <v-navigation-drawer
       v-model="drawer"
       fixed
@@ -23,7 +23,7 @@
       </v-list>
     </v-navigation-drawer>
 
-    <v-toolbar app clipped-left flat>
+    <v-toolbar dark app clipped-left flat class="app-toolbar">
       <v-toolbar-side-icon @click="drawer = !drawer" class="hidden-md-and-up"></v-toolbar-side-icon>
       <v-toolbar-title>
         <nuxt-link to="/" class="app-title">{{ title }}</nuxt-link>
@@ -49,8 +49,8 @@ export default {
   data () {
     return {
       items: [
-        { icon: 'apps', title: 'Home', to: '/' },
-        { icon: 'bubble_chart', title: 'Collections', to: { name: 'collections' } }
+        { icon: '', title: 'Home', to: '/' },
+        { icon: '', title: 'Collections', to: { name: 'collections' } }
       ],
       title: 'Koltra',
       drawer: false
@@ -58,4 +58,3 @@ export default {
   }
 }
 </script>
-
